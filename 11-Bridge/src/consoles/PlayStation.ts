@@ -9,7 +9,7 @@ export default class PlayStation implements IConsole{
     }
     configureGame(): void {
         this.authToken();
-        throw new Error("PlayStation: Preparando configurações de Jogo");
+        console.log("PlayStation: Preparando configurações de Jogo");
     }
     authToken(): void {
         console.log("PlayStation: Autenticando o Usuario");

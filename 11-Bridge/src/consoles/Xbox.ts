@@ -7,7 +7,7 @@ export default class Xbox implements IConsole{
     }
     configureGame(): void {
         this.authToken();
-        throw new Error("Xbox: Preparando configurações de Jogo");
+        console.log("Xbox: Preparando configurações de Jogo");
     }
     authToken(): void {
         console.log("Xbox: Autenticando o Usuario");
